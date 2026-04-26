@@ -67,6 +67,6 @@ Feature importance is displayed using bar charts:
 
 ---
 
-## 🚀 Key Insight
+## Key Insight
 
 This project demonstrates not only how to build a spam classifier, but also how to interpret AI decisions, making the model more transparent and trustworthy.
