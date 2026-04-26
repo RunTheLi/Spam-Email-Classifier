@@ -1,0 +1,56 @@
+## What is LIME?
+
+LIME (Local Interpretable Model-agnostic Explanations) is a tool used to explain how an AI model makes decisions.
+
+It does not create a new model.  
+Instead, it answers the question:
+
+"Why did the AI predict spam or not spam?"
+
+---
+
+## How does it work?
+
+When the AI predicts a message:
+
+- LIME looks at the words in the text  
+- It removes or perturbs parts of the text  
+- It observes how the prediction changes  
+- It identifies which words have the most impact  
+
+---
+
+## Example Output
+
+('free', 0.8)  
+('win', 0.6)  
+('wife', -0.02)
+
+### Interpretation:
+- **Positive values (+)** → support the model’s prediction  
+- **Negative values (−)** → oppose the prediction  
+- **Larger magnitude** → more important  
+
+---
+
+## Bar Chart Visualization
+
+The bar chart is used to visualize LIME results:
+
+- Upward bars → support the prediction  
+- Downward bars → oppose the prediction  
+- Center line → 0 (neutral point)
+
+---
+
+## Summary
+
+LIME is an AI explanation tool that helps us understand:
+
+"Which words influenced the model’s decision?"
+
+---
+
+## Project Pipeline
+
+Text → TF-IDF → Model → Prediction → LIME → Explanation → Bar Chart
