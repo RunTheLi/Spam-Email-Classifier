@@ -71,7 +71,3 @@ Feature importance is displayed using bar charts:
 
 This project demonstrates not only how to build a spam classifier, but also how to interpret AI decisions, making the model more transparent and trustworthy.
 
-<img width="711" height="469" alt="sort and arrangement" src="https://github.com/user-attachments/assets/54077870-8a2a-4009-b415-2f5df1402355" />
-
-<img width="723" height="509" alt="matplotlib" src="https://github.com/user-attachments/assets/e5a9787a-fab7-43b0-bd08-655c5232a309" />
-
