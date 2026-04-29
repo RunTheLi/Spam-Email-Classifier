@@ -3,10 +3,6 @@
 This project builds a machine learning model to classify SMS messages as spam or not spam (ham).  
 It also uses LIME (Local Interpretable Model-agnostic Explanations) to explain why the model makes certain predictions.
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
-![Explainable AI](https://img.shields.io/badge/XAI-LIME%20%2B%20SHAP-green)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 ---
 
 ## Objectives
